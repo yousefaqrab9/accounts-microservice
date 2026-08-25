@@ -11,7 +11,7 @@ import java.time.LocalDateTime;
 @AllArgsConstructor
 public class ErrorResponseDto {
 
-    @Schema(description = "API path invoked by client", example = "uri=/api/create")
+    @Schema(description = "API path invoked by client", example = "uri=/api/example")
     private String apiPath;
 
     @Schema(description = "Error code representing the error happened", example = "500 INTERNAL_SERVER_ERROR")
